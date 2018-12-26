@@ -84,7 +84,7 @@ public:
 
 **O(N^2)**
 
-There are two nested loops, one over *i* and another one over *front* and *back*.
+There is a nested loop, one over *i* and another one over *front* and *back*.
 
 ### Space Complexity
 
