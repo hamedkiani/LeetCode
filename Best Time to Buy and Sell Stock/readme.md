@@ -69,3 +69,6 @@ O(1)
 No additional space is used.
 
 ### Useful Links
+
+[![](http://img.youtube.com/vi/kwaMvB7nhJw/0.jpg)](http://www.youtube.com/watch?v=kwaMvB7nhJw "")
+
