@@ -33,19 +33,18 @@ class Solution {
 public:
     TreeNode* sortedArrayToBST(vector<int>& nums)
     {
-        // the main point of this problem is knowing that in BST, at the value/
-         at each node is bigger than values on its left subtree, and smaller/
-          than its right subtree. Moreover, in this problem, the array is/
-           sorted. So the number in the middle of the array is bigger than its/
-            left side, and smaller than its right side. By considering these/
-             two facts, this problem can be solved recursively, by putting the/
-              number at the middle of the array on the root, and recursively/
-               creating its left and right subtree by calling the recursive/
-                function over the left and right sides of the number (at the/
-                   root).
+        // the main point of this problem is knowing that in BST, at the value\
+         at each node is bigger than values on its left subtree, and smaller\
+          than its right subtree. Moreover, in this problem, the array is\
+           sorted. So the number in the middle of the array is bigger than its\
+            left side, and smaller than its right side. By considering these\
+             two facts, this problem can be solved recursively, by putting the\
+              number at the middle of the array on the root, and recursively\
+               creating its left and right subtree by calling the recursive\
+                function over the left and right sides of the number (at the root).
 
-        // Call the helper function, with the array and its begin and/
-         end indices.
+        // Call the helper function, with the array and its begin and end\
+         indices.
 
         return helper(nums, 0, nums.size()-1);
     }
